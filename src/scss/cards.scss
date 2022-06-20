@@ -1,0 +1,91 @@
+@import "mixin";
+
+.cardsDecoration {
+  @include adaptiv-padding(150, 50);
+
+  &-wrapper {
+    & > .wrapper-title {
+      @include font_title;
+    }
+
+    .wrapper-swiper {
+      .arrow {
+        display: none;
+      }
+
+      .swiper-elements {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 80px;
+
+        .element {
+          width: 30%;
+          font-family: 'Gilroy', sans-serif;
+          margin-top: 50px;
+          padding: 10px;
+          box-sizing: border-box;
+
+          .wp {
+            box-shadow: 0 0 13px black;
+            background: white;
+
+            .element-wrapper {
+              padding: 30px 50px;
+
+              .wrapper-title {
+                display: flex;
+
+                .image {
+                  width: 50px;
+                  img {
+                    width: 100%;
+                  }
+                }
+
+                .body {
+                  margin-left: 30px;
+
+                  .pretitle {
+                    @include font_small;
+                  }
+
+                  .title {
+                    @include font_standard;
+                  }
+                }
+
+              }
+
+              .wrapper-body {
+                div {
+                  margin-top: 15px;
+                  @include font_small;
+                }
+              }
+
+              button {
+                border: 3px solid $color_aquablue;
+                padding: 10px 20px;
+                background: none;
+                display: block;
+                width: 100%;
+                border-radius: 15px;
+                margin-top: 80px;
+                cursor: pointer;
+
+              }
+
+              .wrapper-link {
+                text-align: center;
+                display: block;
+                margin-top: 30px;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

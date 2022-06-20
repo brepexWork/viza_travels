@@ -1,0 +1,170 @@
+@media screen and (max-width: 1150px) {
+
+  .componentMain {
+    &-wrapper {
+      .wrapper-body {
+        width: 55%;
+
+        .body-button {
+          display: block;
+
+          .text {
+            margin-left: 0px;
+            margin-top: 30px;
+          }
+        }
+
+      }
+
+      .wrapper-form {
+        width: 40%;
+      }
+
+    }
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .componentMain {
+    &-wrapper {
+      display: block;
+
+      .wrapper-body {
+        width: 90%;
+        margin: auto;
+
+        .body-button {
+          .text {
+            display: none;
+          }
+        }
+
+        .body-statistics {
+          flex-wrap: wrap;
+          .static {
+            width: 40%;
+            margin-top: 50px;
+
+            &:first-child {
+              display: flex;
+            }
+          }
+        }
+      }
+      .wrapper-form {
+        margin: auto;
+        margin-top: 50px;
+        width: 70%;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+  .componentFlags {
+    &-wrapper {
+      .wrapper-textarea {
+        display: block;
+
+        .textarea {
+          width: 100%;
+
+          .textarea-links {
+            overflow-x: auto;
+            &::-webkit-scrollbar {
+              width: 0;
+            }
+
+          }
+
+        }
+
+        .description {
+          width: 90%;
+
+          .text {
+            text-align: left;
+          }
+        }
+      }
+
+      .wrapper-elements {
+        .element {
+          .element-flags {
+            .flag {
+              width: 22%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  .componentFlags {
+    &-wrapper {
+      .wrapper-elements {
+        .element {
+          .element-flags {
+            .flag {
+              width: 45%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .componentMain {
+    background-color: rgba(0, 0, 0, 0.76);
+
+    &-wrapper {
+      .wrapper-body {
+
+        .body-statistics {
+          margin-top: 10px;
+          .static {
+            width: 90%;
+          }
+        }
+      }
+      .wrapper-form {
+        width: 90%;
+
+        .form-wp {
+          padding: 20px;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .componentFlags {
+    &-wrapper {
+      .wrapper-elements {
+        .element {
+          .element-flags {
+            justify-content: center;
+
+            .flag {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
