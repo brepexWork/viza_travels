@@ -635,7 +635,7 @@ header {
   background: url("/public/image/background/main/citizenship.jpg") no-repeat center / cover;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.65);
-  @include adaptiv-padding(200, 50);
+  @include adaptiv-padding(200, 80);
   font-family: 'Gilroy', sans-serif;
 
   &-wrapper {

@@ -1,0 +1,71 @@
+@import "mixin";
+
+.romaniaAdvantages {
+  @include adaptiv-padding(150, 50);
+
+  &-wrapper {
+    .wrapper-title {
+      @include font_title;
+    }
+
+    .wrapper-container {
+      margin-top: 50px;
+
+      .arrows {
+        justify-content: flex-end;
+        display: none;
+
+        .arrow {
+          width: 50px;
+          height: 50px;
+          border: 1px solid grey;
+          position: relative;
+          cursor: pointer;
+
+          &:last-child {
+            transform: rotate(180deg);
+          }
+
+          img {
+            width: 30%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+          }
+        }
+      }
+
+      .container-swiper {
+        .swiper-wrapper {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          .slide {
+            width: 30%;
+            box-sizing: border-box;
+            margin-top: 30px;
+
+            .slide-content {
+              box-shadow: 0 0 10px black;
+              box-sizing: border-box;
+              padding: 40px 60px;
+              height: 100%;
+
+              .title {
+                @include font_large;
+              }
+
+              .description {
+                @include font_standard;
+                margin-top: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

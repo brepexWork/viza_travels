@@ -3,10 +3,12 @@ $(document).ready(() => {
     let servicesSwiper
     let swiper_contacts
     let swiper_decoration
+    let swiper_romania
 
     let decorationSwiper = $('.cardsDecoration .wrapper-swiper')
     let swiper = $('.ourServices .container-swiper')
     let contactsSteps = $('.contactsSteps .container-swiper')
+    let romania_element = $('.romaniaAdvantages .container-swiper')
 
     const checkServicesMobile = () => {
         if($(window).width() < 820 && swiper.attr('data-swiper') === 'false') {
@@ -92,6 +94,32 @@ $(document).ready(() => {
         }
     }
 
+    const mobileAdvantages = () => {
+
+        if(romania_element.attr('data-mobile') === 'false' && $(window).width() < 600) {
+
+            swiper_romania = new Swiper('.romaniaAdvantages .container-swiper', {
+                wrapperClass: 'swiper-wrapper',
+                slideClass: 'slide',
+                slidesPerView: 1,
+                speed: 500,
+                navigation: {
+                    nextEl: '#romania_next',
+                    prevEl: '#romania_prev'
+                }
+
+            })
+
+            romania_element.attr('data-mobile', 'true')
+        }
+
+        if(romania_element.attr('data-mobile') === 'true' && $(window).width() > 600) {
+            swiper_romania.destroy()
+
+            romania_element.attr('data-mobile', 'false')
+        }
+    }
+
     let componentSwiper = new Swiper('.componentSwiper-container .container-swiper', {
         wrapperClass: 'swiper-wp',
         slideClass: 'slide',
@@ -151,14 +179,18 @@ $(document).ready(() => {
         }
     })
 
+
+
     $(window).resize(() => {
         checkServicesMobile()
         checkMobile()
         contactsSwiper()
+        mobileAdvantages()
     })
 
     checkServicesMobile()
     checkMobile()
     contactsSwiper()
+    mobileAdvantages()
 
 })
