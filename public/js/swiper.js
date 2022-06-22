@@ -131,13 +131,12 @@ $(document).ready(() => {
             prevEl: '#componentSwiper_prev'
         },
         breakpoints: {
-            1300: {
-              spaceBetween: 130,
-              slidesPerView: 4
+            1500: {
+              spaceBetween: 130
             },
             1200: {
                 slidesPerView: 4,
-                spaceBetween: 100
+                spaceBetween: 80
             },
             800: {
               slidesPerView: 3,

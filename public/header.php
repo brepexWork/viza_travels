@@ -67,7 +67,7 @@
             <li><a href="/public/">Главная</a></li>
             <li><a href="/public/viza">Визы</a></li>
             <li><a href="/public/cards">Карты</a></li>
-            <li><a href="">Гражданство Румынии</a></li>
+            <li><a href="/public/romania">Гражданство Румынии</a></li>
             <li><a href="/public/contacts">Контакты</a></li>
         </ul>
     </div>
@@ -84,7 +84,7 @@
                 <li><a href="/public">Главная</a></li>
                 <li><a href="/public/viza">Визы</a></li>
                 <li><a href="/public/cards">Карты</a></li>
-                <li><a href="">Гражданство Румынии</a></li>
+                <li><a href="/public/romania">Гражданство Румынии</a></li>
                 <li><a href="/public/contacts">Контакты</a></li>
             </ul>
 

@@ -69,3 +69,36 @@
     }
   }
 }
+
+.romaniaDocuments {
+  @include adaptiv-padding(150, 50);
+
+  &-wrapper {
+    .wrapper-title {
+      @include font_title;
+    }
+
+    .wrapper-documents {
+      margin-top: 50px;
+
+      .document {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+        .mark {
+          width: 30px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .text {
+          @include font_standard;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

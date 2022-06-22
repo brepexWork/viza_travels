@@ -59,13 +59,13 @@
           justify-content: space-between;
 
           .slide {
-            width: 16%;
+            width: 18%;
             box-sizing: border-box;
 
             .slide-wrapper {
               background: white;
               box-shadow: 0 0 10px black;
-              padding: 20px 40px;
+              padding: 20px 30px;
               box-sizing: border-box;
 
               .title {
@@ -73,8 +73,8 @@
               }
 
               .description {
-                @include font_standard;
-                padding-bottom: 100px;
+                @include font_small;
+                padding-bottom: 50px;
                 margin-top: 30px;
               }
 

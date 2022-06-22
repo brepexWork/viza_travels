@@ -1,5 +1,17 @@
 @import "mixin";
 
+@media screen and (max-width: 1600px) {
+  .content {
+    padding: 0 130px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .content {
+    padding: 0 20px;
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .main {
     &-wrapper {
@@ -267,6 +279,7 @@
 
     .arrows {
       order: 2;
+      margin-top: 40px;
     }
     .container-swiper {
       order: 1;

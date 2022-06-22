@@ -323,10 +323,6 @@ header {
       .body-title {
         @include font_title;
         font-weight: bold;
-
-        span {
-          font-family: 'eurofurence', sans-serif;
-        }
       }
 
       .body-description {
@@ -519,7 +515,6 @@ header {
 
     .wrapper-title {
       @include font_title;
-      font-family: 'eurofurence', sans-serif;
     }
 
     .wrapper-description {
@@ -643,7 +638,6 @@ header {
 
     .wrapper-title {
       @include font_title;
-      font-family: 'eurofurence', sans-serif;
     }
 
     .wrapper-description {
@@ -839,6 +833,7 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-top: 30px;
 
       .pagination {
         display: inline-block;

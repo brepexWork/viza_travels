@@ -109,4 +109,39 @@
         </div>
     </section>
 
+    <div class="romaniaDocuments">
+        <div class="content">
+            <div class="romaniaDocuments-wrapper">
+                <div class="wrapper-title">Какие документы нужны для оформления гражданства Румынии?</div>
+
+                <div class="wrapper-documents">
+                    <div class="document">
+                        <div class="mark"><img src="/public/image/icons/romania/mark.png" alt=""></div>
+                        <div class="text">Заверенные копии загранпаспорта</div>
+                    </div>
+
+                    <div class="document">
+                        <div class="mark"><img src="/public/image/icons/romania/mark.png" alt=""></div>
+                        <div class="text">Заверенные копии паспорта РФ</div>
+                    </div>
+
+                    <div class="document">
+                        <div class="mark"><img src="/public/image/icons/romania/mark.png" alt=""></div>
+                        <div class="text">Заверенные копии паспортов РФ родителей</div>
+                    </div>
+
+                    <div class="document">
+                        <div class="mark"><img src="/public/image/icons/romania/mark.png" alt=""></div>
+                        <div class="text">Заверенные копии свидетельств о браке клиента, родителей</div>
+                    </div>
+
+                    <div class="document">
+                        <div class="mark"><img src="/public/image/icons/romania/mark.png" alt=""></div>
+                        <div class="text">Справка о наличии (отсутствии) судимости</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <?require '../footer.php'?>
