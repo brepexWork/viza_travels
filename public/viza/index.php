@@ -82,8 +82,11 @@
         </div>
     </section>
 
+    <?require '../component/calculate.php'?>
+
+    <?require '../component/slogan.php'?>
+
     <?require '../component/flags.php'?>
 
-    <?require '../component/called.php'?>
 
 <?require '../footer.php'?>

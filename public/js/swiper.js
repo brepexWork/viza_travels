@@ -132,7 +132,8 @@ $(document).ready(() => {
         },
         breakpoints: {
             1500: {
-              spaceBetween: 130
+              spaceBetween: 130,
+              slidesPerView: 4,
             },
             1200: {
                 slidesPerView: 4,

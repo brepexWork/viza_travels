@@ -58,7 +58,7 @@
     </div>
 
     <div class="wrapper-button">
-        <button>
+        <button id="open_video">
                     <span class="rotate">
                         <span class="button-play">
                             <span class="autoplay">

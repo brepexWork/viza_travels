@@ -38,6 +38,8 @@
 
     <link rel="stylesheet" href="/public/css/romania.min.css">
     <link rel="stylesheet" href="/public/css/romania.adaptation.min.css">
+
+
     <!--End Link styles-->
 
     <!--Connection library axios-->
@@ -99,3 +101,6 @@
         </div>
     </div>
 </header>
+
+<?require 'component/video.php'?>
+

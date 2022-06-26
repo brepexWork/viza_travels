@@ -23,6 +23,12 @@ a {
   color: black;
 }
 input {display: block; outline: none; box-sizing: border-box}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
 
 /*Styles for Components*/
 

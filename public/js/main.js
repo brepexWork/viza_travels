@@ -65,11 +65,32 @@ const autoheight = () => {
 
         $('*[autoheight]').eq(i).height(width)
     }
+
+    for(let i = 0; i < $('*[autoheight2]').length; i++) {
+        let width = $('*[autoheight2]').eq(i).width()
+
+        $('*[autoheight2]').eq(i).height(width/1.9)
+    }
 }
 
 autoheight()
 
 /*End autoheight blocks*/
+
+/*закрытие модального окна с видео / открытие*/
+
+$('.componentModal_video').click((e) => {
+    if($(e.target).prop('className') == 'componentModal_video') {
+        $(e.currentTarget).hide()
+    }
+})
+
+$('#open_video').click(() => {
+    $('.componentModal_video').show()
+    autoheight()
+})
+
+/**/
 
 /* Header fixed menu */
 

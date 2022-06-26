@@ -23,40 +23,63 @@
     }
   }
 
-}
-
-@media screen and (max-width: 850px) {
-
-  .componentMain {
+  .componentCalculate {
     &-wrapper {
-      display: block;
+      .wrapper-calc {
 
-      .wrapper-body {
-        width: 90%;
-        margin: auto;
+        .calc-wp {
 
-        .body-button {
-          .text {
-            display: none;
+          .wp-body {
+
+            .element {
+              width: 40%;
+
+            }
           }
-        }
 
-        .body-statistics {
-          flex-wrap: wrap;
-          .static {
-            width: 40%;
-            margin-top: 50px;
+          .wp-contact {
 
-            &:first-child {
-              display: flex;
+            input, button {
+              width: 40%;
+              margin-top: 40px;
+            }
+
+            input {
+
+            }
+
+            button {
+
             }
           }
         }
       }
-      .wrapper-form {
-        margin: auto;
-        margin-top: 50px;
-        width: 70%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .componentSlogan {
+    &-wrapper {
+      .wrapper-title {
+      }
+
+      .wrapper-slogans {
+
+        .slogan {
+          display: block;
+
+          .image {
+            width: 50px;
+            margin-bottom: 50px;
+          }
+
+          .text {
+            width: 100%;
+          }
+        }
       }
     }
   }
@@ -104,6 +127,113 @@
   }
 }
 
+@media screen and (max-width: 850px) {
+
+  .componentMain {
+    &-wrapper {
+      display: block;
+
+      .wrapper-body {
+        width: 90%;
+        margin: auto;
+
+        .body-button {
+          .text {
+            display: none;
+          }
+        }
+
+        .body-statistics {
+          flex-wrap: wrap;
+          .static {
+            width: 40%;
+            margin-top: 50px;
+
+            &:first-child {
+              display: flex;
+            }
+          }
+        }
+      }
+      .wrapper-form {
+        margin: auto;
+        margin-top: 50px;
+        width: 70%;
+      }
+    }
+  }
+
+  .componentSlogan {
+    &-wrapper {
+      .wrapper-title {
+      }
+
+      .wrapper-slogans {
+        justify-content: space-around;
+
+        .slogan {
+          width: 45%;
+          margin-top: 40px;
+          display: flex;
+
+          .text {
+            text-align: justify;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .componentCalculate {
+    &-wrapper {
+      .wrapper-calc {
+        .calc-wp {
+          .wp-body {
+            justify-content: center;
+
+            .element {
+              width: 90%;
+
+            }
+          }
+
+          .wp-contact {
+
+            input, button {
+              width: 90%;
+              margin-top: 40px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+  .componentSlogan {
+    &-wrapper {
+
+      .wrapper-slogans {
+
+        .slogan {
+          width: 90%;
+
+          .text {
+            text-align: start;
+          }
+
+        }
+      }
+    }
+  }
+
+}
+
 @media screen and (max-width: 650px) {
 
   .componentFlags {
@@ -113,6 +243,32 @@
           .element-flags {
             .flag {
               width: 45%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .componentCalculate {
+    &-wrapper {
+      .wrapper-calc {
+        border: none;
+
+        .calc-wp {
+          padding: 60px 10px;
+
+          .wp-title {
+            width: 80vw;
+          }
+
+          .wp-body {
+            .element {
+              width: 100%;
             }
           }
         }
@@ -162,6 +318,17 @@
               width: 80%;
             }
           }
+        }
+      }
+    }
+  }
+
+  .componentCalculate {
+    &-wrapper {
+      .wrapper-calc {
+
+        .calc-wp {
+          padding: 0;
         }
       }
     }

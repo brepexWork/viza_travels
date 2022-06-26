@@ -279,3 +279,171 @@
 
   }
 }
+
+.componentCalculate {
+  @include adaptiv-padding(150, 50);
+
+  &-wrapper {
+    .wrapper-calc {
+      border: 4px solid $color_gold;
+      border-radius: 25px;
+
+      .calc-wp {
+        padding: 60px 40px;
+        box-sizing: border-box;
+        .wp-title {
+          text-align: center;
+          @include font_large;
+          text-transform: uppercase;
+        }
+
+        .wp-body {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-bottom: 40px;
+
+          .element {
+            width: 30%;
+            margin-top: 60px;
+
+            & > input {
+              width: 100%;
+              padding: 20px 10px 20px 25px;
+              border-radius: 25px;
+              outline: none;
+              border: 1px solid black;
+              @include font_standard;
+            }
+
+            .title {
+              margin-bottom: 40px;
+              @include font_large;
+            }
+
+            .chooses {
+              display: flex;
+              flex-wrap: wrap;
+
+              .choose {
+                display: block;
+                position: relative;
+
+                &:not(:last-child) {
+                  margin-right: 20px;
+                }
+
+                input {
+                  opacity: 0;
+                  position: absolute;
+                }
+
+                .text {
+                  padding: 10px 15px;
+                  @include font_standard;
+                  border-radius: 25px;
+                }
+
+                input:checked + .text {
+                  background: $color_gold;
+                }
+              }
+            }
+          }
+        }
+
+        .wp-contact {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-top: 50px;
+
+          input, button {
+            width: 19%;
+            padding: 10px 10px 10px 20px;
+            border: none;
+            @include font_standard;
+          }
+
+          input {
+            border-bottom: 2px solid black;
+            outline: none;
+          }
+
+          button {
+            background: $color_gold;
+            border-radius: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.componentSlogan {
+  background: url("/public/image/background/components/slogan.png") no-repeat center / cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.7);
+  @include adaptiv-padding(150, 50);
+
+  &-wrapper {
+    .wrapper-title {
+      @include font_title;
+      text-align: center;
+      color: white;
+    }
+
+    .wrapper-slogans {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 80px;
+
+      .slogan {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .image {
+          width: 30%;
+          max-width: 70px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .text {
+          @include font_standard;
+          color: white;
+          width: 65%;
+        }
+      }
+    }
+  }
+}
+
+.componentModal_video {
+  width: 100%;
+  height: 100vh;
+  background: rgba(128, 128, 128, 0.7);
+  position: fixed;
+  top: 0;
+  z-index: 15;
+  display: none;
+
+  .video {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+}
