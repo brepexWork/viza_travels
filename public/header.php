@@ -91,7 +91,7 @@
             </ul>
 
             <div class="wrapper-phone">
-                <img src="/public/icons/icon_phone.svg" alt="">
+                <img src="/public/image/icons/icon_phone.png" alt="">
                 <a href="">8-999-999-99-99</a>
             </div>
 

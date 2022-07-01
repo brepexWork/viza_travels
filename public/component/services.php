@@ -66,8 +66,8 @@
     </div>
     
     <div class="arrows">
-        <div id="componentSwiper_prev" class="arrow"><img src="/public/image/icons/arrows/icon_arrow_swiper.svg" alt=""></div>
-        <div id="componentSwiper_next" class="arrow"><img src="/public/image/icons/arrows/icon_arrow_swiper.svg" alt=""></div>
+        <div id="componentSwiper_prev" class="arrow"><img src="/public/image/icons/item_arrow.png" alt=""></div>
+        <div id="componentSwiper_next" class="arrow"><img src="/public/image/icons/item_arrow.png" alt=""></div>
     </div>
 
 </div>

@@ -1,4 +1,4 @@
-<? require '../header.php' ?>
+<?php  require '../header.php' ?>
 
     <section class="componentMain contact">
         <div class="content">
@@ -11,7 +11,7 @@
                     </div>
 
                     <div class="body-button">
-                        <button><span>оставить заявку</span> <span>➝</span></button>
+                        <a href="#called"><span>оставить заявку</span> <span><img src="/public/image/icons/arrows/arrow_right_header.png" alt=""></span></a>
                         <div class="text">Более <span>93%</span> одобрения на получение визы</div>
                     </div>
 
@@ -157,7 +157,7 @@
         </div>
     </section>
 
-    <section class="contactsMap">
+    <!--<section class="contactsMap">
         <div class="content">
             <div class="contactsMap-wrapper">
                 <div class="wrapper-body">
@@ -179,8 +179,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
-    <?require '../component/called.php'?>
+    <?php require '../component/called.php'?>
 
-<? require '../footer.php' ?>
+<?php require '../footer.php' ?>

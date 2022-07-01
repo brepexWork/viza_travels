@@ -1,4 +1,4 @@
-<? require '../header.php' ?>
+<?php  require '../header.php' ?>
 
     <section class="componentMain">
         <div class="content">
@@ -14,7 +14,7 @@
                     </div>
 
                     <div class="body-button">
-                        <button><span>оставить заявку</span> <span>➝</span></button>
+                        <a href="#called"><span>оставить заявку</span> <span><img src="/public/image/icons/arrows/arrow_right_header.png" alt=""></span></a>
                         <div class="text">Более <span>93%</span> одобрения на получение визы</div>
                     </div>
 
@@ -95,7 +95,7 @@
                             <div class="wp">
                                 <div class="element-wrapper">
                                     <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/item_card.svg" alt=""></div>
+                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
                                         <div class="body">
                                             <div class="pretitle">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
@@ -119,7 +119,7 @@
                             <div class="wp">
                                 <div class="element-wrapper">
                                     <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/item_card.svg" alt=""></div>
+                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
                                         <div class="body">
                                             <div class="pretitle">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
@@ -143,7 +143,7 @@
                             <div class="wp">
                                 <div class="element-wrapper">
                                     <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/item_card.svg" alt=""></div>
+                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
                                         <div class="body">
                                             <div class="pretitle">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
@@ -167,7 +167,7 @@
                             <div class="wp">
                                 <div class="element-wrapper">
                                     <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/item_card.svg" alt=""></div>
+                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
                                         <div class="body">
                                             <div class="pretitle">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
@@ -191,7 +191,7 @@
                             <div class="wp">
                                 <div class="element-wrapper">
                                     <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/item_card.svg" alt=""></div>
+                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
                                         <div class="body">
                                             <div class="pretitle">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
@@ -215,7 +215,7 @@
                             <div class="wp">
                                 <div class="element-wrapper">
                                     <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/item_card.svg" alt=""></div>
+                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
                                         <div class="body">
                                             <div class="pretitle">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
@@ -241,6 +241,6 @@
         </div>
     </section>
 
-<?require '../component/called.php'?>
+<?php require '../component/called.php'?>
 
-<? require '../footer.php' ?>
+<?php  require '../footer.php' ?>

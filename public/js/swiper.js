@@ -123,32 +123,16 @@ $(document).ready(() => {
     let componentSwiper = new Swiper('.componentSwiper-container .container-swiper', {
         wrapperClass: 'swiper-wp',
         slideClass: 'slide',
-        slidesPerView: 1.3,
+        width: 250,
         loop: true,
         spaceBetween: 30,
+        centeredSlides: true,
         navigation: {
             nextEl: '#componentSwiper_next',
             prevEl: '#componentSwiper_prev'
         },
         breakpoints: {
-            1500: {
-              spaceBetween: 130,
-              slidesPerView: 4,
-            },
-            1200: {
-                slidesPerView: 4,
-                spaceBetween: 80
-            },
-            800: {
-              slidesPerView: 3,
-                spaceBetween: 60
-            },
-            600: {
-              spaceBetween: 40
-            },
-            450: {
-                slidesPerView: 2,
-                spaceBetween: 10
+            1300: {
             }
 
         }

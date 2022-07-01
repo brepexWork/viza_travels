@@ -1,4 +1,4 @@
-<?require '../header.php'?>
+<?php require '../header.php'?>
 
     <section class="componentMain">
         <div class="content">
@@ -9,7 +9,7 @@
                     <div class="body-description">Оформим нужный тип визы в любую страну Мира. Специализируемся на визовых вопросах любой сложности.</div>
 
                     <div class="body-button">
-                        <button><span>оставить заявку</span> <span>➝</span></button>
+                        <a href="#called"><span>оставить заявку</span> <span><img src="/public/image/icons/arrows/arrow_right_header.png" alt=""></span></a>
                         <div class="text">Более <span>93%</span> одобрения на получение визы</div>
                     </div>
 
@@ -77,16 +77,16 @@
     <section class="vizaVizas">
         <div class="content">
             <div class="vizaVizas-wrapper">
-                <?include '../component/services.php' ?>
+                <?php include '../component/services.php' ?>
             </div>
         </div>
     </section>
 
-    <?require '../component/calculate.php'?>
+    <?php require '../component/slogan.php'?>
 
-    <?require '../component/slogan.php'?>
+    <?php require '../component/flags.php'?>
 
-    <?require '../component/flags.php'?>
+    <?php require '../component/called.php'?>
 
 
-<?require '../footer.php'?>
+<?php require '../footer.php'?>

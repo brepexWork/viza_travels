@@ -148,20 +148,21 @@
         align-items: center;
         margin-top: 50px;
 
-        button {
+        a {
           display: flex;
           justify-content: center;
           align-items: center;
           background: none;
           border: 2px solid $color_gold;
-          padding: 10px 20px;
+          padding: 15px 20px 10px 20px;
           width: 100%;
           max-width: 300px;
-          @include adaptiv-font(18, 12);
-          color: white;
+          @include font_average;
+          color: black;
           text-transform: uppercase;
           box-shadow: 0 0 3px white;
           transition: 0.5s all ease;
+          background: $color_gold;
 
           &:hover {
             box-shadow: 0 0 13px white;
@@ -173,6 +174,14 @@
           span:first-child {
             margin-right: 15px;
 
+          }
+
+          span:last-child {
+            width: 20px;
+
+            img {
+              width: 100%;
+            }
           }
 
         }
@@ -415,9 +424,15 @@
         }
 
         .text {
-          @include font_standard;
+          @include font_average;
           color: white;
           width: 65%;
+          align-self: flex-start;
+
+          .title {
+            @include font_standard;
+            margin-bottom: 20px;
+          }
         }
       }
     }

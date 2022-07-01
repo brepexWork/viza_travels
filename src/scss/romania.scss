@@ -10,10 +10,15 @@
 
     .wrapper-container {
       margin-top: 50px;
+      display: flex;
+      flex-direction: column;
 
       .arrows {
         justify-content: flex-end;
         display: none;
+        margin-right: auto;
+        order: 2;
+        margin-top: 40px;
 
         .arrow {
           width: 50px;
@@ -21,13 +26,20 @@
           border: 1px solid grey;
           position: relative;
           cursor: pointer;
+          border-radius: 50%;
+
+          &:hover {
+            transition: 0.5s all ease;
+            box-shadow: 0 0 13px black;
+          }
 
           &:last-child {
             transform: rotate(180deg);
+            margin-left: 20px;
           }
 
           img {
-            width: 30%;
+            width: 100%;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -38,6 +50,8 @@
       }
 
       .container-swiper {
+        order: 1;
+
         .swiper-wrapper {
           display: flex;
           justify-content: space-between;
@@ -53,6 +67,12 @@
               box-sizing: border-box;
               padding: 40px 60px;
               height: 100%;
+              transition: 0.5s all ease;
+
+              &:hover {
+                transition: 0.5s all ease;
+                transform: scale(1.1);
+              }
 
               .title {
                 @include font_large;
@@ -72,8 +92,12 @@
 
 .romaniaDocuments {
   @include adaptiv-padding(150, 50);
+  background: url("/public/image/background/romania/documents.png") no-repeat center / cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.52);
 
   &-wrapper {
+    color: white;
     .wrapper-title {
       @include font_title;
     }

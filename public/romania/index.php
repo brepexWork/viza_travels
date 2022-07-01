@@ -1,4 +1,4 @@
-<?require '../header.php'?>
+<?php require '../header.php'?>
 
     <section class="citizenship">
         <div class="content">
@@ -54,8 +54,8 @@
 
                 <div class="wrapper-container">
                     <div class="arrows">
-                        <div class="arrow" id="romania_prev"><img src="/public/image/icons/arrows/icon_arrow_swiper.svg" alt=""></div>
-                        <div class="arrow" id="romania_next"><img src="/public/image/icons/arrows/icon_arrow_swiper.svg" alt=""></div>
+                        <div class="arrow" id="romania_prev"><img src="/public/image/icons/item_arrow.png" alt=""></div>
+                        <div class="arrow" id="romania_next"><img src="/public/image/icons/item_arrow.png" alt=""></div>
                     </div>
 
                     <div class="container-swiper" data-mobile="false">
@@ -144,4 +144,4 @@
         </div>
     </div>
 
-<?require '../footer.php'?>
+<?php require '../footer.php'?>

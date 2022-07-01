@@ -1,4 +1,4 @@
-<? require './header.php'; ?>
+<?php require './header.php'; ?>
 
 <section class="main">
     <div class="content">
@@ -9,7 +9,7 @@
                 <div class="body-description">Оформляем визы во все страны мира, готовим документы на гражданство, оформляем карты</div>
 
                 <div class="body-button">
-                    <button><span>оставить заявку</span> <span>➝</span></button>
+                    <a href="#called"><span>оставить заявку</span> <span><img src="/public/image/icons/arrows/arrow_right_header.png" alt=""></span></a>
                     <div class="text">Более <span>93%</span> одобрения на получение визы</div>
                 </div>
 
@@ -203,7 +203,7 @@
                 <div class="body-description">Популярные направления</div>
             </div>
 
-            <?require 'component/services.php'?>
+            <?php require 'component/services.php'?>
         </div>
     </div>
 </section>
@@ -379,6 +379,6 @@
     </div>
 </section>-->
 
-<?require 'component/called.php'?>
+<?php require 'component/called.php'?>
 
-<? require './footer.php'; ?>
+<?php require './footer.php'; ?>

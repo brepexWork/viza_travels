@@ -9,7 +9,7 @@
                     <div class="body-description">Оформим нужный тип визы в любую страну Мира. Специализируемся на визовых вопросах любой сложности.</div>
 
                     <div class="body-button">
-                        <button><span>оставить заявку</span> <span>➝</span></button>
+                        <button><span>оставить заявку</span> <span><img src="/public/image/icons/arrows/arrow_right_header.png" alt=""></span></button>
                         <div class="text">Более <span>93%</span> одобрения на получение визы</div>
                     </div>
 

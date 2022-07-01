@@ -41,25 +41,27 @@ input::-webkit-inner-spin-button {
   .arrows {
     display: flex;
     justify-content: flex-end;
-    order: 1;
+    margin-right: auto;
 
     .arrow {
-      width: 50px;
-      height: 50px;
+      width: 55px;
+      height: 55px;
       border: 1px solid black;
       padding: 10px;
       box-sizing: border-box;
       position: relative;
       transition: 0.5s all ease;
       cursor: pointer;
+      border-radius: 50%;
 
       &:hover {
         transition: 0.5s all ease;
-        background: #f5c357;
+        box-shadow: 0 0 13px black;
       }
 
       &:last-child {
         transform: rotate(180deg);
+        margin-left: 20px;
       }
 
       img {
@@ -77,12 +79,12 @@ input::-webkit-inner-spin-button {
 
   .container-swiper {
     width: 100%;
+    overflow: hidden;
     margin: auto;
     position: relative;
     height: 400px;
     margin-top: 20px;
     z-index: 1;
-    order: 2;
 
     .swiper-wp {
       display: flex;
@@ -99,7 +101,8 @@ input::-webkit-inner-spin-button {
           position: relative;
           transition: 0.5s all linear;
           cursor: pointer;
-          padding: 10px;
+          padding: 10px 10px 14px 10px;
+          box-sizing: border-box;
 
           &:hover {
             transform: translateY(-20px);
@@ -186,7 +189,7 @@ button {
 
         a {
           color: white;
-          @include font_large;
+          @include font_standard;
           text-transform: uppercase;
         }
       }
@@ -242,7 +245,7 @@ header {
 
         a {
           color: white;
-          @include font_standard;
+          @include font-average;
         }
 
         &:last-child {
@@ -261,7 +264,7 @@ header {
       }
 
       img {
-        width: 25px;
+        width: 45px;
         margin-right: 20px;
       }
     }
@@ -342,20 +345,21 @@ header {
         align-items: center;
         margin-top: 50px;
 
-        button {
+        a {
           display: flex;
           justify-content: center;
           align-items: center;
           background: none;
           border: 2px solid $color_gold;
-          padding: 10px 20px;
+          padding: 15px 20px 10px 20px;
           width: 100%;
           max-width: 300px;
-          @include font_standard;
-          color: white;
+          @include font_average;
+          color: black;
           text-transform: uppercase;
           box-shadow: 0 0 3px white;
           transition: 0.5s all ease;
+          background: $color_gold;
 
           &:hover {
             box-shadow: 0 0 13px white;
@@ -367,6 +371,14 @@ header {
           span:first-child {
             margin-right: 15px;
 
+          }
+
+          span:last-child {
+            width: 20px;
+
+            img {
+              width: 100%;
+            }
           }
 
         }
@@ -514,7 +526,6 @@ header {
 
 .ourServices {
   @include adaptiv-padding(150, 20);
-  background: url("/public/image/background/main/ourServices.svg") no-repeat right top / contain;
 
   &-wrapper {
     font-family: 'Gilroy', sans-serif;
@@ -547,13 +558,13 @@ header {
           width: 100%;
         }
         &:first-child {
-          transform: rotate(180deg) translateX(15px);
           left: 0;
+          transform: translateX(-10px);
         }
 
         &:last-child {
           right: 0;
-          transform: translateX(15px);
+          transform: rotate(180deg) translateX(-10px);
         }
       }
 
@@ -616,8 +627,7 @@ header {
 
                   &:hover {
                     transition: 0.2s all ease;
-                    background: $color_blue;
-                    color: white;
+                    box-shadow: 0 0 13px $color_blue;
                   }
 
                 }
@@ -732,21 +742,20 @@ header {
         }
 
         .pre_title {
-          @include font_small;
+          @include font-average;
         }
       }
 
       .body-line {
         width: 5px;
-        background: $color_blue;
+        background: black;
         margin: 0 10px;
       }
 
       .body-description {
         align-self: center;
         @include font_large;
-        color: $color_blue;
-        font-weight: 600;
+        color: black;
 
       }
     }
@@ -760,8 +769,6 @@ header {
   &-wrapper {
     .wrapper-title {
       @include font_title;
-      font-family: 'eurofurence', sans-serif;
-      font-weight: bold;
     }
 
     .wrapper-swiper {
@@ -848,14 +855,20 @@ header {
       }
 
       .arrow {
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         border: 1px solid black;
         border-radius: 50%;
         margin: 0px 20px;
         cursor: pointer;
+        transition: 0.5s all ease;
 
-        &:first-child {
+        &:hover {
+          transition: 0.5s all ease;
+          box-shadow: 0 0 13px black;
+        }
+
+        &:last-child {
           transform: rotate(180deg);
 
         }
@@ -1003,6 +1016,13 @@ header {
           margin-top: 40px;
           color: white;
           display: block;
+          transition: 0.5s all ease;
+
+          &:hover {
+            transition: 0.5s all ease;
+            box-shadow: 0 0 13px #E8B11E;
+
+          }
         }
 
       }
@@ -1029,6 +1049,8 @@ footer {
         a {
           width: 50px;
           height: 50px;
+          min-width: 50px;
+          min-height: 50px;
 
           &:first-child {
             background: url("/public/image/icons/footer/icon_insta.png") no-repeat center / cover;

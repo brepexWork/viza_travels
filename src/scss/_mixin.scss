@@ -6,7 +6,7 @@ $color_violet : #2C0054;
 
 @mixin font_title() {
   @include adaptiv-font(72, 28);
-  font-family: 'Monserat', sans-serif;
+  font-family: 'Gilroy', sans-serif;
 }
 @mixin font_large() {
   @include adaptiv-font(32, 22);
@@ -17,6 +17,12 @@ $color_violet : #2C0054;
   @include adaptiv-font(22, 16);
   font-family: 'Gilroy', sans-serif;
 }
+
+@mixin font_average() {
+  @include adaptiv-font(18, 14);
+  font-family: 'Gilroy', sans-serif;
+}
+
 @mixin font_small() {
   @include adaptiv-font(15, 9);
   font-family: 'Gilroy', sans-serif;
