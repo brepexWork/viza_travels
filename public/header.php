@@ -39,6 +39,9 @@
     <link rel="stylesheet" href="/public/css/romania.min.css">
     <link rel="stylesheet" href="/public/css/romania.adaptation.min.css">
 
+    <link rel="stylesheet" href="/public/css/template.min.css">
+    <link rel="stylesheet" href="/public/css/template.adaptation.min.css">
+
 
     <!--End Link styles-->
 
@@ -92,7 +95,7 @@
 
             <div class="wrapper-phone">
                 <img src="/public/image/icons/icon_phone.png" alt="">
-                <a href="">8-999-999-99-99</a>
+                <a href="https://wa.me/+40730362882">+40730362882</a>
             </div>
 
             <div class="wrapper-burger" id="burger">
@@ -102,5 +105,7 @@
     </div>
 </header>
 
-<?require 'component/video.php'?>
+<?php require 'component/video.php'?>
+
+<?php require 'component/popup.php'?>
 

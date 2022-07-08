@@ -92,6 +92,56 @@ $('#open_video').click(() => {
 
 /**/
 
+//Модальные окна
+
+$('div[modal] input').keyup((e) => {
+    if(e.keyCode == 27) {
+        $(e.currentTarget).parents('div[modal]').hide(100)
+    }
+})
+
+$('div[modal] .close').click((e) => {
+    $(e.currentTarget).parents('div[modal]').hide(100)
+})
+
+$('button[button_short]').click((e) => {
+
+    $('.modalShort').show(100)
+})
+
+$('button[button_full]').click((e) => {
+    $('.modalFull').show(100)
+})
+
+//блок отвечающий за выбор ивывод определенной формы
+
+$('.templateCosts .services-lists .list').click((e) => {
+    let id = $(e.currentTarget).index()
+    let length = $('.templateCosts .services-lists .list').length
+
+    $('.templateCosts .services-lists .list').removeClass('active')
+
+    $(e.currentTarget).addClass('active')
+
+    $('.templateCosts .services-details .detail').hide()
+    $('.templateCosts .services-details .detail').eq(id).show()
+
+
+})
+
+//блок faq
+
+$('.componentFaq .wrapper-faq .faq').click((e) => {
+    if($(e.currentTarget).find('.plus').hasClass('active')) {
+        $(e.currentTarget).find('.plus').removeClass('active')
+        $(e.currentTarget).find('.answer').hide(100)
+
+    } else {
+        $(e.currentTarget).find('.plus').addClass('active')
+        $(e.currentTarget).find('.answer').show(100)
+    }
+})
+
 /* Header fixed menu */
 
 const header_menu = () => {

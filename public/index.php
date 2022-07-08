@@ -96,7 +96,7 @@
 
                                     <div class="description">Поможем с подготовкой документов или оформим под ключ гражданствo Румынии</div>
 
-                                    <button>Подробнее об услуге</button>
+                                    <a href="/public/romania"><button>Подробнее об услуге</button></a>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
 
                                     <div class="description">Быстро и качественно оформляем визы</div>
 
-                                    <button>Подробнее об услуге</button>
+                                    <a href="/public/viza"><button>Подробнее об услуге</button></a>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                                     <div class="description">Оформим карты для оплаты
                                         в странах Европы</div>
 
-                                    <button>Подробнее об услуге</button>
+                                    <a href="/public/cards"><button>Подробнее об услуге</button></a>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +180,7 @@
             </div>
             
             <div class="wrapper-buttons">
-                <button>Отправить заявку</button>
+                <button button_short>Отправить заявку</button>
                 <button>Подробнее об услуге</button>
             </div>
 

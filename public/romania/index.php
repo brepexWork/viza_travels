@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="wrapper-buttons">
-                    <button>Остановить заявку</button>
+                    <button button_full>Остановить заявку</button>
                 </div>
 
             </div>

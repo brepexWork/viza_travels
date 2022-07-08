@@ -1,6 +1,7 @@
 <?php require '../header.php'?>
 
-    <section class="componentMain">
+    <section class="componentMain" style="background: url('/public/image/background/main/viza.jpg') no-repeat center / cover; background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.51); ">
         <div class="content">
             <div class="componentMain-wrapper">
                 <div class="wrapper-body">

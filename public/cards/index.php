@@ -1,6 +1,7 @@
 <?php  require '../header.php' ?>
 
-    <section class="componentMain">
+    <section class="componentMain" style="background: url('/public/image/background/main/cards.jpg') no-repeat center / cover; background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.51); ">
         <div class="content">
             <div class="componentMain-wrapper">
                 <div class="wrapper-body">
@@ -87,154 +88,175 @@
                 <div class="wrapper-title">Оформим карты для оплаты <br> в странах Европы</div>
 
                 <div class="wrapper-swiper" data-mobile="false">
-                    <div class="arrow" id="arrow_next"></div>
-                    <div class="arrow" id="arrow_prev"></div>
 
                     <div class="swiper-elements">
                         <div class="element">
                             <div class="wp">
-                                <div class="element-wrapper">
-                                    <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
-                                        <div class="body">
-                                            <div class="pretitle">Bank RBK</div>
+                                <div class="wp-wrapper">
+                                    <div class="title">
+                                        <div class="image"><img src="" alt=""></div>
+                                        <div class="text">
+                                            <div class="description">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
                                         </div>
                                     </div>
 
-                                    <div class="wrapper-body">
-                                        <div>Мультивалютность:</div>
-                                        <div>Стоимость:</div>
+                                    <div class="body">
+                                        <div>Мультивалютность: </div>
                                         <div>Ежемесячное обслуживание:</div>
                                     </div>
 
-                                    <button>Оформить</button>
+                                    <div class="costs">
+                                        <div class="title">Стоимость:</div>
+                                        <div class="cost"><span>3000</span> руб</div>
+                                    </div>
 
-                                    <a href="" class="wrapper-link">Сайт карты</a>
+                                    <button>Оформить</button>
+                                    <a href="">Сайт карты</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="element">
                             <div class="wp">
-                                <div class="element-wrapper">
-                                    <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
-                                        <div class="body">
-                                            <div class="pretitle">Bank RBK</div>
+                                <div class="wp-wrapper">
+                                    <div class="title">
+                                        <div class="image"><img src="" alt=""></div>
+                                        <div class="text">
+                                            <div class="description">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
                                         </div>
                                     </div>
 
-                                    <div class="wrapper-body">
-                                        <div>Мультивалютность:</div>
-                                        <div>Стоимость:</div>
+                                    <div class="body">
+                                        <div>Мультивалютность: </div>
                                         <div>Ежемесячное обслуживание:</div>
                                     </div>
 
-                                    <button>Оформить</button>
+                                    <div class="costs">
+                                        <div class="title">Стоимость:</div>
+                                        <div class="cost"><span>3000</span> руб</div>
+                                    </div>
 
-                                    <a href="" class="wrapper-link">Сайт карты</a>
+                                    <button>Оформить</button>
+                                    <a href="">Сайт карты</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="element">
                             <div class="wp">
-                                <div class="element-wrapper">
-                                    <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
-                                        <div class="body">
-                                            <div class="pretitle">Bank RBK</div>
+                                <div class="wp-wrapper">
+                                    <div class="title">
+                                        <div class="image"><img src="" alt=""></div>
+                                        <div class="text">
+                                            <div class="description">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
                                         </div>
                                     </div>
 
-                                    <div class="wrapper-body">
-                                        <div>Мультивалютность:</div>
-                                        <div>Стоимость:</div>
+                                    <div class="body">
+                                        <div>Мультивалютность: </div>
                                         <div>Ежемесячное обслуживание:</div>
                                     </div>
 
-                                    <button>Оформить</button>
+                                    <div class="costs">
+                                        <div class="title">Стоимость:</div>
+                                        <div class="cost"><span>3000</span> руб</div>
+                                    </div>
 
-                                    <a href="" class="wrapper-link">Сайт карты</a>
+                                    <button>Оформить</button>
+                                    <a href="">Сайт карты</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="element">
                             <div class="wp">
-                                <div class="element-wrapper">
-                                    <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
-                                        <div class="body">
-                                            <div class="pretitle">Bank RBK</div>
+                                <div class="wp-wrapper">
+                                    <div class="title">
+                                        <div class="image"><img src="" alt=""></div>
+                                        <div class="text">
+                                            <div class="description">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
                                         </div>
                                     </div>
 
-                                    <div class="wrapper-body">
-                                        <div>Мультивалютность:</div>
-                                        <div>Стоимость:</div>
+                                    <div class="body">
+                                        <div>Мультивалютность: </div>
                                         <div>Ежемесячное обслуживание:</div>
                                     </div>
 
-                                    <button>Оформить</button>
+                                    <div class="costs">
+                                        <div class="title">Стоимость:</div>
+                                        <div class="cost"><span>3000</span> руб</div>
+                                    </div>
 
-                                    <a href="" class="wrapper-link">Сайт карты</a>
+                                    <button>Оформить</button>
+                                    <a href="">Сайт карты</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="element">
                             <div class="wp">
-                                <div class="element-wrapper">
-                                    <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
-                                        <div class="body">
-                                            <div class="pretitle">Bank RBK</div>
+                                <div class="wp-wrapper">
+                                    <div class="title">
+                                        <div class="image"><img src="" alt=""></div>
+                                        <div class="text">
+                                            <div class="description">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
                                         </div>
                                     </div>
 
-                                    <div class="wrapper-body">
-                                        <div>Мультивалютность:</div>
-                                        <div>Стоимость:</div>
+                                    <div class="body">
+                                        <div>Мультивалютность: </div>
                                         <div>Ежемесячное обслуживание:</div>
                                     </div>
 
-                                    <button>Оформить</button>
+                                    <div class="costs">
+                                        <div class="title">Стоимость:</div>
+                                        <div class="cost"><span>3000</span> руб</div>
+                                    </div>
 
-                                    <a href="" class="wrapper-link">Сайт карты</a>
+                                    <button>Оформить</button>
+                                    <a href="">Сайт карты</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="element">
                             <div class="wp">
-                                <div class="element-wrapper">
-                                    <div class="wrapper-title">
-                                        <div class="image"><img src="/public/image/icons/main/icon_card.png" alt=""></div>
-                                        <div class="body">
-                                            <div class="pretitle">Bank RBK</div>
+                                <div class="wp-wrapper">
+                                    <div class="title">
+                                        <div class="image"><img src="" alt=""></div>
+                                        <div class="text">
+                                            <div class="description">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
                                         </div>
                                     </div>
 
-                                    <div class="wrapper-body">
-                                        <div>Мультивалютность:</div>
-                                        <div>Стоимость:</div>
+                                    <div class="body">
+                                        <div>Мультивалютность: </div>
                                         <div>Ежемесячное обслуживание:</div>
                                     </div>
 
-                                    <button>Оформить</button>
+                                    <div class="costs">
+                                        <div class="title">Стоимость:</div>
+                                        <div class="cost"><span>3000</span> руб</div>
+                                    </div>
 
-                                    <a href="" class="wrapper-link">Сайт карты</a>
+                                    <button>Оформить</button>
+                                    <a href="">Сайт карты</a>
                                 </div>
                             </div>
                         </div>
 
+                    </div>
+
+                    <div class="arrows">
+                        <div class="arrow" id="arrow_next"></div>
+                        <div class="arrow" id="arrow_prev"></div>
                     </div>
                 </div>
             </div>

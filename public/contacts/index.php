@@ -92,7 +92,7 @@
                         возвращается снова и рекомендует друзьям и знакомым.
                     </div>
 
-                    <button>написать директору</button>
+                    <button button_full>написать директору</button>
                 </div>
             </div>
         </div>
@@ -157,6 +157,8 @@
         </div>
     </section>
 
+    <?php require '../component/faq.php'?>
+
     <!--<section class="contactsMap">
         <div class="content">
             <div class="contactsMap-wrapper">
@@ -180,7 +182,5 @@
             </div>
         </div>
     </section>-->
-
-    <?php require '../component/called.php'?>
 
 <?php require '../footer.php' ?>

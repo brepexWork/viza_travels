@@ -9,10 +9,20 @@ section {
   overflow: hidden;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: 'eurofurence', sans-serif;
+  transition: 0.5s all ease;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -101,7 +111,7 @@ input::-webkit-inner-spin-button {
           position: relative;
           transition: 0.5s all linear;
           cursor: pointer;
-          padding: 10px 10px 14px 10px;
+          padding: 10px;
           box-sizing: border-box;
 
           &:hover {
@@ -112,8 +122,7 @@ input::-webkit-inner-spin-button {
           .content-wrapper {
             position: relative;
             color: white;
-            padding: 5px;
-            height: 98%;
+            height: 100%;
             border: 1px solid white;
 
             .costs {
@@ -264,7 +273,7 @@ header {
       }
 
       img {
-        width: 45px;
+        width: 30px;
         margin-right: 20px;
       }
     }
@@ -881,7 +890,7 @@ header {
   }
 }
 
-.cost {
+section.cost {
   background: white;
   @include adaptiv-padding(150, 20);
   position: relative;

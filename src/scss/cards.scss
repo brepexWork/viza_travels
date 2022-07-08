@@ -9,7 +9,7 @@
     }
 
     .wrapper-swiper {
-      .arrow {
+      .arrows {
         display: none;
       }
 
@@ -29,58 +29,84 @@
           .wp {
             box-shadow: 0 0 13px black;
             background: white;
+            height: 100%;
 
-            .element-wrapper {
-              padding: 30px 50px;
+            .wp-wrapper {
+              padding: 40px 0;
 
-              .wrapper-title {
+              & > .title {
                 display: flex;
+                padding: 0 40px;
 
                 .image {
                   width: 50px;
+                  margin-right: 20px;
+
                   img {
                     width: 100%;
                   }
                 }
 
-                .body {
-                  margin-left: 30px;
-
-                  .pretitle {
-                    @include font_small;
-                  }
+                .text {
+                  text-align: center;
 
                   .title {
                     @include font_standard;
+                    font-weight: 600;
+                  }
+
+                  .description {
+                    @include font_average;
                   }
                 }
-
               }
 
-              .wrapper-body {
+              .body {
+                margin-top: 30px;
+                padding: 0 40px;
+                @include font_standard;
+
                 div {
-                  margin-top: 15px;
-                  @include font_small;
+                  margin-top: 10px;
+                }
+              }
+
+              .costs {
+                background: linear-gradient(90deg, $color_gold, #eedea9);
+                text-align: center;
+                padding: 10px 0;
+                margin-top: 30px;
+
+                .title {
+                  @include font_standard;
+                }
+
+                .cost {
+                  @include font_large;
+
+                  span {
+                    font-weight: 600;
+                  }
                 }
               }
 
               button {
-                border: 3px solid $color_aquablue;
-                padding: 10px 20px;
+                width: 80%;
+                border: 2px solid $color_blue;
+                padding: 15px 0;
                 background: none;
                 display: block;
-                width: 100%;
-                border-radius: 15px;
-                margin-top: 80px;
-                cursor: pointer;
-
+                margin: auto;
+                margin-top: 30px;
+                @include font_standard;
               }
 
-              .wrapper-link {
+              a {
                 text-align: center;
-                display: block;
-                margin-top: 30px;
+                margin-top: 20px;
                 font-weight: bold;
+                @include font_standard;
+                display: block;
               }
             }
           }
