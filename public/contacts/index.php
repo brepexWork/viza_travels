@@ -157,8 +157,6 @@
         </div>
     </section>
 
-    <?php require '../component/faq.php'?>
-
     <!--<section class="contactsMap">
         <div class="content">
             <div class="contactsMap-wrapper">

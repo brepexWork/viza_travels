@@ -357,6 +357,25 @@
     }
   }
 
+  .modalFull {
+
+    .modal {
+
+      &-wrapper {
+        padding: 50px 30px;
+
+        .wrapper-inputs {
+
+          textarea {
+            height: 150px;
+          }
+        }
+
+      }
+    }
+
+  }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -386,6 +405,34 @@
         }
       }
     }
+  }
+
+  .modalFull {
+
+    .modal {
+
+      &-wrapper {
+        padding: 30px 30px;
+
+        .wrapper-title {
+          text-align: left;
+        }
+
+        .wrapper-description {
+          margin-top: 10px;
+          text-align: left;
+        }
+
+        .wrapper-inputs {
+
+          textarea {
+            height: 100px;
+          }
+        }
+
+      }
+    }
+
   }
 
 }

@@ -484,6 +484,7 @@
         border-radius: 25px;
         @include font_standard;
         background: $color_gold;
+        width: 250px;
       }
     }
 
@@ -493,9 +494,10 @@
         background: white;
         margin-top: 30px;
         border-radius: 15px;
+        user-select: none;
 
         .faq-wrapper {
-          padding: 30px 60px;
+          padding: 20px 40px;
 
           .quation {
             display: flex;
@@ -504,14 +506,14 @@
             cursor: pointer;
 
             .text {
-              @include font_large;
+              @include font_standard;
               margin-right: 20px;
             }
 
             .plus {
 
               span {
-                width: 50px;
+                width: 30px;
                 cursor: pointer;
 
                 img {

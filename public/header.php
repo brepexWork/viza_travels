@@ -70,9 +70,9 @@
     <div class="header_mobile-wrapper">
         <ul>
             <li><a href="/public/">Главная</a></li>
+            <li><a href="/public/romania">Гражданство Румынии</a></li>
             <li><a href="/public/viza">Визы</a></li>
             <li><a href="/public/cards">Карты</a></li>
-            <li><a href="/public/romania">Гражданство Румынии</a></li>
             <li><a href="/public/contacts">Контакты</a></li>
         </ul>
     </div>
@@ -87,13 +87,14 @@
 
             <ul class="wrapper-menu">
                 <li><a href="/public">Главная</a></li>
+                <li><a href="/public/romania">Гражданство Румынии</a></li>
                 <li><a href="/public/viza">Визы</a></li>
                 <li><a href="/public/cards">Карты</a></li>
-                <li><a href="/public/romania">Гражданство Румынии</a></li>
                 <li><a href="/public/contacts">Контакты</a></li>
             </ul>
 
             <div class="wrapper-phone">
+                <span>Whats App</span>
                 <img src="/public/image/icons/icon_phone.png" alt="">
                 <a href="https://wa.me/+40730362882">+40730362882</a>
             </div>

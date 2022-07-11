@@ -10,17 +10,17 @@
 
             <div class="wrapper-inputs">
                 <div class="input">
-                    <div class="image"><img src="" alt=""></div>
+                    <div class="image"><img src="/public/image/icons/popup/popup_profile.png" alt=""></div>
                     <input placeholder="Имя*" type="text">
                 </div>
 
                 <div class="input">
-                    <div class="image"><img src="" alt=""></div>
+                    <div class="image"><img src="/public/image/icons/popup/popup_phone.png" alt=""></div>
                     <input placeholder="Телефон*" type="text">
                 </div>
 
                 <div class="input">
-                    <div class="image"><img src="" alt=""></div>
+                    <div class="image"><img src="/public/image/icons/popup/popup_comment.png" alt=""></div>
                     <input placeholder="E-mail*" type="text">
                 </div>
 
@@ -45,12 +45,12 @@
 
             <div class="wrapper-inputs">
                 <div class="input">
-                    <div class="image"><img src="" alt=""></div>
+                    <div class="image"><img src="/public/image/icons/popup/popup_profile.pngu" alt=""></div>
                     <input placeholder="Имя*" type="text">
                 </div>
 
                 <div class="input">
-                    <div class="image"><img src="" alt=""></div>
+                    <div class="image"><img src="/public/image/icons/popup/popup_phone.png" alt=""></div>
                     <input placeholder="Телефон*" type="text">
                 </div>
 

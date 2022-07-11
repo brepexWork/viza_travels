@@ -143,5 +143,6 @@
             </div>
         </div>
     </div>
+<?php require '../component/faq.php'?>
 
 <?php require '../footer.php'?>

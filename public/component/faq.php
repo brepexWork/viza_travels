@@ -3,7 +3,7 @@
         <div class="componentFaq-wrapper">
             <div class="wrapper-title">
                 <div class="text">Вопросы по получению визы</div>
-                <button>Задать вопрос</button>
+                <button button_full>Задать вопрос</button>
             </div>
 
             <div class="wrapper-faq">
