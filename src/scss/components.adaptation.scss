@@ -388,7 +388,13 @@
             justify-content: center;
 
             .flag {
-              width: 80%;
+              width: 60%;
+
+              &-wrapper {
+                .image {
+                  width: 70%;
+                }
+              }
             }
           }
         }

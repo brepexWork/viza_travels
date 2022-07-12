@@ -15,6 +15,37 @@
     }
   }
 
+  .romaniaCitizenship {
+
+    &-wrapper {
+
+      .wrapper-content {
+        display: block;
+
+        .body {
+          width: 90%;
+
+          .body-icons {
+            justify-content: flex-start;
+
+            .icon:not(:last-child) {
+              margin-right: 20px;
+            }
+
+          }
+        }
+
+        .form {
+          width: 90%;
+          max-width: 500px;
+          margin: auto;
+          margin-top: 50px;
+        }
+      }
+
+    }
+  }
+
 }
 
 @media screen and (max-width: 800px) {

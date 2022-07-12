@@ -1,19 +1,33 @@
 @media screen and (max-width: 1000px) {
 
-  .cardsDecoration {
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .cardDecoration {
 
     &-wrapper {
 
       .wrapper-swiper {
+        position: relative;
+        overflow: hidden;
 
-        .swiper-elements {
-          margin-top: 20px;
 
-          .element {
-            width: 45%;
+        .swiper-wrapper {
+          position: relative;
+          flex-wrap: nowrap;
 
+          .slide {
+            width: auto;
+            padding: 10px;
+            flex: 0 0 auto;
           }
         }
+      }
+
+      .wrapper-arrows {
+        display: flex;
       }
     }
   }
@@ -22,44 +36,5 @@
 
 @media screen and (max-width: 720px) {
 
-  .cardsDecoration {
-    &-wrapper {
-      .wrapper-swiper {
-        overflow: hidden;
-        width: 100%;
-        height: 600px;
-        margin: auto;
-        position: relative;
-
-        .arrows {
-
-          .arrow {
-            width: 40px;
-            height: 40px;
-            border: 1px solid black;
-            background: url("/public/image/icons/item_arrow.png") no-repeat center / cover;
-            border-radius: 50%;
-            display: inline;
-            z-index: 3;
-            cursor: pointer;
-
-            &:first-child {
-              transform: rotate(180deg);
-              right: 0;
-            }
-          }
-        }
-
-        .swiper-elements {
-          flex-wrap: nowrap;
-          position: absolute;
-
-          .element {
-            padding: 20px;
-          }
-        }
-      }
-    }
-  }
 
 }

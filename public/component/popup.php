@@ -45,7 +45,7 @@
 
             <div class="wrapper-inputs">
                 <div class="input">
-                    <div class="image"><img src="/public/image/icons/popup/popup_profile.pngu" alt=""></div>
+                    <div class="image"><img src="/public/image/icons/popup/popup_profile.png" alt=""></div>
                     <input placeholder="Имя*" type="text">
                 </div>
 

@@ -1,51 +1,64 @@
 <?php require '../header.php'?>
 
-    <section class="citizenship">
+    <div class="romaniaCitizenship">
         <div class="content">
-            <div class="citizenship-wrapper">
+            <div class="romaniaCitizenship-wrapper">
                 <div class="wrapper-title">Получение гражданства Румынии</div>
-
                 <div class="wrapper-description">Самый доступный способ получения на законном основании гражданства ЕС, возможности безвизовых путешествий и визы Е-2 в США</div>
 
-                <div class="wrapper-icons">
-                    <div class="icon">
-                        <div class="image">
-                            <img src="/public/image/icons/main/icon_write.png" alt="">
+                <div class="wrapper-content">
+                    <div class="body">
+                        <div class="body-icons">
+                            <div class="icon">
+                                <div class="image">
+                                    <img src="/public/image/icons/main/icon_write.png" alt="">
+                                </div>
+                                <div class="text">170 стран без визы</div>
+                            </div>
+
+                            <div class="icon">
+                                <div class="image">
+                                    <img src="/public/image/icons/main/icon_star.png" alt="">
+                                </div>
+                                <div class="text">Доступна виза Е2 в США</div>
+                            </div>
+
+                            <div class="icon">
+                                <div class="image">
+                                    <img src="/public/image/icons/main/icon_time.png" alt="">
+                                </div>
+                                <div class="text">Ожидание 12 - 18 месяцев</div>
+                            </div>
+
+                            <div class="icon">
+                                <div class="image">
+                                    <img src="/public/image/icons/main/icon_dollar.png" alt="">
+                                </div>
+                                <div class="text">Стоимость от €8500</div>
+                            </div>
                         </div>
 
-                        <div class="text">170 стран без <br> визы</div>
+                        <button button_full class="body-button">Оставить заявку</button>
                     </div>
-                    <div class="icon">
-                        <div class="image">
-                            <img src="/public/image/icons/main/icon_star.png" alt="">
-                        </div>
 
-                        <div class="text">Доступна виза <br> Е2 в США</div>
-                    </div>
-                    <div class="icon">
-                        <div class="image">
-                            <img src="/public/image/icons/main/icon_time.png" alt="">
-                        </div>
+                    <div class="form">
+                        <div class="form-wrapper">
+                            <div class="wrapper-title">Бесплатная консультация</div>
+                            <div class="wrapper-description">Наш специалист свяжется с Вами в ближайшее время и ответит на все вопросы!
+                            </div>
 
-                        <div class="text">Ожидание 12 - 18 <br> месяцев
-                        </div>
-                    </div>
-                    <div class="icon">
-                        <div class="image">
-                            <img src="/public/image/icons/main/icon_dollar.png" alt="">
-                        </div>
+                            <div class="wrapper-inputs">
+                                <input placeholder="Имя*" type="text">
+                                <input placeholder="Номер телефона" type="text">
+                            </div>
 
-                        <div class="text">Стоимость <br> от €8500</div>
+                            <button>Отправить</button>
+                        </div>
                     </div>
                 </div>
-
-                <div class="wrapper-buttons">
-                    <button button_full>Остановить заявку</button>
-                </div>
-
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="romaniaAdvantages">
         <div class="content">

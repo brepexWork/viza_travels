@@ -82,182 +82,210 @@
         </div>
     </section>
 
-    <section class="cardsDecoration">
+    <section class="cardDecoration">
         <div class="content">
-            <div class="cardsDecoration-wrapper">
-                <div class="wrapper-title">Оформим карты для оплаты <br> в странах Европы</div>
+            <div class="cardDecoration-wrapper">
+                <div class="wrapper-title">Оформим карты для оплаты в странах Европы</div>
 
                 <div class="wrapper-swiper" data-mobile="false">
+                    <div class="swiper-wrapper">
+                        <div class="slide">
+                            <div class="slide-content">
 
-                    <div class="swiper-elements">
-                        <div class="element">
-                            <div class="wp">
-                                <div class="wp-wrapper">
-                                    <div class="title">
-                                        <div class="image"><img src="" alt=""></div>
+                                <div class="content-wrapper">
+                                    <div class="wrapper-title">
+                                        <div class="image">
+                                            <img src="/public/image/icons/amstercard.png" alt="">
+                                        </div>
+
                                         <div class="text">
-                                            <div class="description">Bank RBK</div>
+                                            <div class="pre_title">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
                                         </div>
                                     </div>
 
-                                    <div class="body">
-                                        <div>Мультивалютность: </div>
-                                        <div>Ежемесячное обслуживание:</div>
+                                    <div class="wrapper-body">
+                                        <div class="text">Мультивалютность: <span></span></div>
+                                        <div class="text">Ежемесячное обслуживание: <span></span></div>
                                     </div>
-
-                                    <div class="costs">
-                                        <div class="title">Стоимость:</div>
-                                        <div class="cost"><span>3000</span> руб</div>
-                                    </div>
-
-                                    <button>Оформить</button>
-                                    <a href="">Сайт карты</a>
                                 </div>
+
+                                <div class="costs">
+                                    <div class="text">Стоимость</div>
+                                    <div class="cost"><span>3000</span> руб</div>
+                                </div>
+
+                                <button>Оформить</button>
+
+                                <div class="link"><a href="">Сайт карты</a></div>
                             </div>
                         </div>
 
-                        <div class="element">
-                            <div class="wp">
-                                <div class="wp-wrapper">
-                                    <div class="title">
-                                        <div class="image"><img src="" alt=""></div>
+                        <div class="slide">
+                            <div class="slide-content">
+
+                                <div class="content-wrapper">
+                                    <div class="wrapper-title">
+                                        <div class="image">
+                                            <img src="/public/image/icons/icon_viza.png" alt="">
+                                        </div>
+
                                         <div class="text">
-                                            <div class="description">Bank RBK</div>
+                                            <div class="pre_title">Банк ЦентрКредит</div>
+                                            <div class="title">VISA TravelCard</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="wrapper-body">
+                                        <div class="text">Мультивалютность: <span></span></div>
+                                        <div class="text">Ежемесячное обслуживание: <span></span></div>
+                                    </div>
+                                </div>
+
+                                <div class="costs">
+                                    <div class="text">Стоимость</div>
+                                    <div class="cost"><span>3000</span> руб</div>
+                                </div>
+
+                                <button>Оформить</button>
+
+                                <div class="link"><a href="">Сайт карты</a></div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slide-content">
+
+                                <div class="content-wrapper">
+                                    <div class="wrapper-title">
+                                        <div class="image">
+                                            <img src="/public/image/icons/icon_viza.png" alt="">
+                                        </div>
+
+                                        <div class="text">
+                                            <div class="pre_title">Банк ЦентрКредит</div>
+                                            <div class="title">VISA Infinite</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="wrapper-body">
+                                        <div class="text">Мультивалютность: <span></span></div>
+                                        <div class="text">Ежемесячное обслуживание: <span></span></div>
+                                    </div>
+                                </div>
+
+                                <div class="costs">
+                                    <div class="text">Стоимость</div>
+                                    <div class="cost"><span>3000</span> руб</div>
+                                </div>
+
+                                <button>Оформить</button>
+
+                                <div class="link"><a href="">Сайт карты</a></div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slide-content">
+
+                                <div class="content-wrapper">
+                                    <div class="wrapper-title">
+                                        <div class="image">
+                                            <img src="/public/image/icons/icon_viza.png" alt="">
+                                        </div>
+
+                                        <div class="text">
+                                            <div class="pre_title">Евразийский банк </div>
+                                            <div class="title">VISA Infinite</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="wrapper-body">
+                                        <div class="text">Мультивалютность: <span></span></div>
+                                        <div class="text">Ежемесячное обслуживание: <span></span></div>
+                                    </div>
+                                </div>
+
+                                <div class="costs">
+                                    <div class="text">Стоимость</div>
+                                    <div class="cost"><span>3000</span> руб</div>
+                                </div>
+
+                                <button>Оформить</button>
+
+                                <div class="link"><a href="">Сайт карты</a></div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slide-content">
+
+                                <div class="content-wrapper">
+                                    <div class="wrapper-title">
+                                        <div class="image">
+                                            <img src="/public/image/icons/amstercard.png" alt="">
+                                        </div>
+
+                                        <div class="text">
+                                            <div class="pre_title">Евразийский банк </div>
+                                            <div class="title">Mastercard World Elite</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="wrapper-body">
+                                        <div class="text">Мультивалютность: <span></span></div>
+                                        <div class="text">Ежемесячное обслуживание: <span></span></div>
+                                    </div>
+                                </div>
+
+                                <div class="costs">
+                                    <div class="text">Стоимость</div>
+                                    <div class="cost"><span>3000</span> руб</div>
+                                </div>
+
+                                <button>Оформить</button>
+
+                                <div class="link"><a href="">Сайт карты</a></div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slide-content">
+
+                                <div class="content-wrapper">
+                                    <div class="wrapper-title">
+                                        <div class="image">
+                                            <img src="/public/image/icons/amstercard.png" alt="">
+                                        </div>
+
+                                        <div class="text">
+                                            <div class="pre_title">Bank RBK</div>
                                             <div class="title">Prisma Gold</div>
                                         </div>
                                     </div>
 
-                                    <div class="body">
-                                        <div>Мультивалютность: </div>
-                                        <div>Ежемесячное обслуживание:</div>
+                                    <div class="wrapper-body">
+                                        <div class="text">Мультивалютность: <span></span></div>
+                                        <div class="text">Ежемесячное обслуживание: <span></span></div>
                                     </div>
-
-                                    <div class="costs">
-                                        <div class="title">Стоимость:</div>
-                                        <div class="cost"><span>3000</span> руб</div>
-                                    </div>
-
-                                    <button>Оформить</button>
-                                    <a href="">Сайт карты</a>
                                 </div>
+
+                                <div class="costs">
+                                    <div class="text">Стоимость</div>
+                                    <div class="cost"><span>3000</span> руб</div>
+                                </div>
+
+                                <button>Оформить</button>
+
+                                <div class="link"><a href="">Сайт карты</a></div>
                             </div>
                         </div>
-
-                        <div class="element">
-                            <div class="wp">
-                                <div class="wp-wrapper">
-                                    <div class="title">
-                                        <div class="image"><img src="" alt=""></div>
-                                        <div class="text">
-                                            <div class="description">Bank RBK</div>
-                                            <div class="title">Prisma Gold</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="body">
-                                        <div>Мультивалютность: </div>
-                                        <div>Ежемесячное обслуживание:</div>
-                                    </div>
-
-                                    <div class="costs">
-                                        <div class="title">Стоимость:</div>
-                                        <div class="cost"><span>3000</span> руб</div>
-                                    </div>
-
-                                    <button>Оформить</button>
-                                    <a href="">Сайт карты</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="element">
-                            <div class="wp">
-                                <div class="wp-wrapper">
-                                    <div class="title">
-                                        <div class="image"><img src="" alt=""></div>
-                                        <div class="text">
-                                            <div class="description">Bank RBK</div>
-                                            <div class="title">Prisma Gold</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="body">
-                                        <div>Мультивалютность: </div>
-                                        <div>Ежемесячное обслуживание:</div>
-                                    </div>
-
-                                    <div class="costs">
-                                        <div class="title">Стоимость:</div>
-                                        <div class="cost"><span>3000</span> руб</div>
-                                    </div>
-
-                                    <button>Оформить</button>
-                                    <a href="">Сайт карты</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="element">
-                            <div class="wp">
-                                <div class="wp-wrapper">
-                                    <div class="title">
-                                        <div class="image"><img src="" alt=""></div>
-                                        <div class="text">
-                                            <div class="description">Bank RBK</div>
-                                            <div class="title">Prisma Gold</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="body">
-                                        <div>Мультивалютность: </div>
-                                        <div>Ежемесячное обслуживание:</div>
-                                    </div>
-
-                                    <div class="costs">
-                                        <div class="title">Стоимость:</div>
-                                        <div class="cost"><span>3000</span> руб</div>
-                                    </div>
-
-                                    <button>Оформить</button>
-                                    <a href="">Сайт карты</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="element">
-                            <div class="wp">
-                                <div class="wp-wrapper">
-                                    <div class="title">
-                                        <div class="image"><img src="" alt=""></div>
-                                        <div class="text">
-                                            <div class="description">Bank RBK</div>
-                                            <div class="title">Prisma Gold</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="body">
-                                        <div>Мультивалютность: </div>
-                                        <div>Ежемесячное обслуживание:</div>
-                                    </div>
-
-                                    <div class="costs">
-                                        <div class="title">Стоимость:</div>
-                                        <div class="cost"><span>3000</span> руб</div>
-                                    </div>
-
-                                    <button>Оформить</button>
-                                    <a href="">Сайт карты</a>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
+                </div>
 
-                    <div class="arrows">
-                        <div class="arrow" id="arrow_next"></div>
-                        <div class="arrow" id="arrow_prev"></div>
-                    </div>
+                <div class="wrapper-arrows">
+                    <div class="arrow" id="decoration_prev"><img src="/public/image/icons/item_arrow.png" alt=""></div>
+                    <div class="arrow" id="decoration_next"><img src="/public/image/icons/item_arrow.png" alt=""></div>
                 </div>
             </div>
         </div>

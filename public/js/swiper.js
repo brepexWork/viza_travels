@@ -5,10 +5,11 @@ $(document).ready(() => {
     let swiper_decoration
     let swiper_romania
 
-    let decorationSwiper = $('.cardsDecoration .wrapper-swiper')
+    let decorationSwiper = $('.cardDecoration .wrapper-swiper')
     let swiper = $('.ourServices .container-swiper')
     let contactsSteps = $('.contactsSteps .container-swiper')
     let romania_element = $('.romaniaAdvantages .container-swiper')
+
 
     const checkServicesMobile = () => {
         if($(window).width() < 820 && swiper.attr('data-swiper') === 'false') {
@@ -42,23 +43,28 @@ $(document).ready(() => {
 
     const checkMobile = () => {
 
-        if($(window).width() < 720 && decorationSwiper.data('mobile') === false) {
-            swiper_decoration = new Swiper('.cardsDecoration .wrapper-swiper', {
-                wrapperClass: 'swiper-elements',
-                slideClass: 'element',
-                slidesPerView: 1,
+        if($(window).width() < 900 && decorationSwiper.data('mobile') === false) {
+            console.log('123')
+            swiper_decoration = new Swiper('.cardDecoration .wrapper-swiper', {
+                wrapperClass: 'swiper-wrapper',
+                slideClass: 'slide',
+                width: 280,
                 spaceBetween: 30,
-                autoHeight: true,
                 navigation: {
-                    nextEl: '.cardsDecoration .wrapper-swiper #arrow_next',
-                    prevEl: '.cardsDecoration .wrapper-swiper #arrow_prev'
+                    prevEl: '#decoration_prev',
+                    nextEl: '#decoration_next'
+                },
+                breakpoints: {
+                    400: {
+                        width: 300
+                    }
                 }
             })
 
             decorationSwiper.data('mobile', true)
         }
 
-        if($(window).width() > 720 && decorationSwiper.data('mobile') === true) {
+        if($(window).width() > 900 && decorationSwiper.data('mobile') === true) {
             decorationSwiper.data('mobile', false)
 
             swiper_decoration.destroy()

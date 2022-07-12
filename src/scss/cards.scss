@@ -1,6 +1,6 @@
 @import "mixin";
 
-.cardsDecoration {
+.cardDecoration {
   @include adaptiv-padding(150, 50);
 
   &-wrapper {
@@ -9,38 +9,35 @@
     }
 
     .wrapper-swiper {
-      .arrows {
-        display: none;
-      }
+      margin-top: 50px;
 
-      .swiper-elements {
+      .swiper-wrapper {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-top: 80px;
 
-        .element {
+        .slide {
           width: 30%;
-          font-family: 'Gilroy', sans-serif;
-          margin-top: 50px;
-          padding: 10px;
-          box-sizing: border-box;
+          margin-top: 40px;
 
-          .wp {
-            box-shadow: 0 0 13px black;
-            background: white;
+          .slide-content {
+            box-shadow: 0 0 8px black;
+            padding: 30px 0;
             height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
-            .wp-wrapper {
-              padding: 40px 0;
+            .content-wrapper {
+              padding: 0 30px;
+              flex-grow: 1;
 
-              & > .title {
+              .wrapper-title {
                 display: flex;
-                padding: 0 40px;
+                align-items: center;
 
                 .image {
-                  width: 50px;
-                  margin-right: 20px;
+                  width: 60px;
 
                   img {
                     width: 100%;
@@ -48,68 +45,99 @@
                 }
 
                 .text {
-                  text-align: center;
+                  margin-left: 20px;
 
-                  .title {
-                    @include font_standard;
-                    font-weight: 600;
-                  }
-
-                  .description {
+                  .pre_title {
+                    text-align: center;
                     @include font_average;
                   }
-                }
-              }
-
-              .body {
-                margin-top: 30px;
-                padding: 0 40px;
-                @include font_standard;
-
-                div {
-                  margin-top: 10px;
-                }
-              }
-
-              .costs {
-                background: linear-gradient(90deg, $color_gold, #eedea9);
-                text-align: center;
-                padding: 10px 0;
-                margin-top: 30px;
-
-                .title {
-                  @include font_standard;
-                }
-
-                .cost {
-                  @include font_large;
-
-                  span {
-                    font-weight: 600;
+                  .title {
+                    text-align: center;
+                    @include font_standard;
                   }
                 }
               }
 
-              button {
-                width: 80%;
-                border: 2px solid $color_blue;
-                padding: 15px 0;
-                background: none;
-                display: block;
-                margin: auto;
+              .wrapper-body {
                 margin-top: 30px;
-                @include font_standard;
+
+                .text {
+                  margin-top: 10px;
+                  @include font_average;
+                }
+              }
+            }
+
+            .costs {
+              background: linear-gradient($color_gold, rgba(243, 220, 13, 0.63));
+              text-align: center;
+              padding: 10px 0;
+              margin: 20px 0;
+
+              .text {
+                @include font_average;
               }
 
-              a {
-                text-align: center;
-                margin-top: 20px;
-                font-weight: bold;
+              .cost {
                 @include font_standard;
-                display: block;
+              }
+            }
+
+            button {
+              border: 3px solid $color_blue;
+              width: 200px;
+              padding: 10px 0;
+              display: block;
+              background: none;
+              margin: 20px auto;
+              @include font_standard;
+              transition: 0.5s all ease;
+
+              &:hover {
+                transition: 0.5s all ease;
+                box-shadow: 0 0 8px $color_blue;
+              }
+            }
+
+            .link {
+              text-align: center;
+
+              a {
+                @include font_standard;
               }
             }
           }
+        }
+      }
+    }
+
+    .wrapper-arrows {
+      display: none;
+      align-items: center;
+      margin-top: 40px;
+
+      .arrow {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid black;
+        transition: 0.5s all ease;
+        background: white;
+        cursor: pointer;
+
+        &:last-child {
+          transform: rotate(180deg);
+          margin-left: 20px;
+
+        }
+
+        &:hover {
+          transition: 0.5s all ease;
+          box-shadow: 0 0 8px black;
+        }
+
+        img {
+          width: 100%;
         }
       }
     }
