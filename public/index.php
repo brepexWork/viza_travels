@@ -181,7 +181,7 @@
             
             <div class="wrapper-buttons">
                 <button button_short>Отправить заявку</button>
-                <button>Подробнее об услуге</button>
+                <a href="/public/romania"><button>Подробнее об услуге</button></a>
             </div>
 
         </div>

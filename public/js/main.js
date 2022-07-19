@@ -60,16 +60,16 @@ const scrollOff = (scrollTop = 0) => {
 /*autoheight blocks*/
 
 const autoheight = () => {
-    for(let i = 0; i < $('*[autoheight]').length; i++) {
+    for (let i = 0; i < $('*[autoheight]').length; i++) {
         let width = $('*[autoheight]').eq(i).width()
 
         $('*[autoheight]').eq(i).height(width)
     }
 
-    for(let i = 0; i < $('*[autoheight2]').length; i++) {
+    for (let i = 0; i < $('*[autoheight2]').length; i++) {
         let width = $('*[autoheight2]').eq(i).width()
 
-        $('*[autoheight2]').eq(i).height(width/1.9)
+        $('*[autoheight2]').eq(i).height(width / 1.9)
     }
 }
 
@@ -80,7 +80,7 @@ autoheight()
 /*закрытие модального окна с видео / открытие*/
 
 $('.componentModal_video').click((e) => {
-    if($(e.target).prop('className') == 'componentModal_video') {
+    if ($(e.target).prop('className') == 'componentModal_video') {
         $(e.currentTarget).hide()
     }
 })
@@ -95,7 +95,7 @@ $('#open_video').click(() => {
 //Модальные окна
 
 $('div[modal] input').keyup((e) => {
-    if(e.keyCode == 27) {
+    if (e.keyCode == 27) {
         $(e.currentTarget).parents('div[modal]').hide(100)
     }
 })
@@ -106,11 +106,19 @@ $('div[modal] .close').click((e) => {
 
 $('button[button_short]').click((e) => {
 
+    let button_text = $(e.currentTarget).text()
+
+    $('.modalShort .wrapper-button').text(button_text)
+
     $('.modalShort').show(100)
 })
 
 $('button[button_full]').click((e) => {
     $('.modalFull').show(100)
+
+    let button_text = $(e.currentTarget).text()
+
+    $('.modalFull .wrapper-button').text(button_text)
 })
 
 //блок отвечающий за выбор ивывод определенной формы
@@ -132,7 +140,7 @@ $('.templateCosts .services-lists .list').click((e) => {
 //блок faq
 
 $('.componentFaq .wrapper-faq .faq').click((e) => {
-    if($(e.currentTarget).find('.plus').hasClass('active')) {
+    if ($(e.currentTarget).find('.plus').hasClass('active')) {
         $(e.currentTarget).find('.plus').removeClass('active')
         $(e.currentTarget).find('.answer').hide(100)
 
@@ -150,10 +158,22 @@ const header_menu = () => {
         let scrollTopHeader = $(document).scrollTop()
         let header_menu = $('.componentMain').height()
 
-        if(scrollTopHeader > header_menu && $(window).width() < 950) {
+        let header_menu_fixed = $('header')
+
+        if($(window).width() > 1000) {
+            if(header_menu_fixed.height() + 100 < $(window).scrollTop() && !header_menu_fixed.hasClass('active')) {
+                header_menu_fixed.addClass('active')
+            }
+
+            if(header_menu_fixed.hasClass('active') && (header_menu_fixed.height() > $(window).scrollTop())) {
+                header_menu_fixed.removeClass('active')
+            }
+        }
+
+        if (scrollTopHeader > header_menu && $(window).width() < 950) {
             $('header').attr('header_active', '')
         }
-        if(scrollTopHeader < header_menu && $(window).width() < 950) {
+        if (scrollTopHeader < header_menu && $(window).width() < 950) {
             $('header').removeAttr('header_active')
         }
     })
@@ -162,6 +182,29 @@ const header_menu = () => {
 header_menu()
 
 /* end header fixed menu */
+
+//cookie
+
+if($('.cookie').attr('set_cookie') != true) {
+    setTimeout(() => {
+        $('.cookie').show(300)
+    }, 6000)
+}
+
+$('.cookie button').click(() => {
+
+    $.ajax({
+        url: '/public/php/set_cookie.php',
+        type: 'POST',
+        cache: false,
+        success: (data) => {
+            $('.cookie').hide(300)
+            console.log(true)
+        }
+    })
+})
+
+//END
 
 $(window).resize(() => {
     autoheight()

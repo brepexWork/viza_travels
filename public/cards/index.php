@@ -115,7 +115,7 @@
                                     <div class="cost"><span>3000</span> руб</div>
                                 </div>
 
-                                <button>Оформить</button>
+                                <button button_short>Оформить</button>
 
                                 <div class="link"><a href="">Сайт карты</a></div>
                             </div>
@@ -147,7 +147,7 @@
                                     <div class="cost"><span>3000</span> руб</div>
                                 </div>
 
-                                <button>Оформить</button>
+                                <button button_short>Оформить</button>
 
                                 <div class="link"><a href="">Сайт карты</a></div>
                             </div>
@@ -179,7 +179,7 @@
                                     <div class="cost"><span>3000</span> руб</div>
                                 </div>
 
-                                <button>Оформить</button>
+                                <button button_short>Оформить</button>
 
                                 <div class="link"><a href="">Сайт карты</a></div>
                             </div>
@@ -211,7 +211,7 @@
                                     <div class="cost"><span>3000</span> руб</div>
                                 </div>
 
-                                <button>Оформить</button>
+                                <button button_short>Оформить</button>
 
                                 <div class="link"><a href="">Сайт карты</a></div>
                             </div>
@@ -243,7 +243,7 @@
                                     <div class="cost"><span>3000</span> руб</div>
                                 </div>
 
-                                <button>Оформить</button>
+                                <button button_short>Оформить</button>
 
                                 <div class="link"><a href="">Сайт карты</a></div>
                             </div>
@@ -275,7 +275,7 @@
                                     <div class="cost"><span>3000</span> руб</div>
                                 </div>
 
-                                <button>Оформить</button>
+                                <button button_short>Оформить</button>
 
                                 <div class="link"><a href="">Сайт карты</a></div>
                             </div>

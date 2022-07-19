@@ -21,7 +21,7 @@
 
                 <div class="input">
                     <div class="image"><img src="/public/image/icons/popup/popup_comment.png" alt=""></div>
-                    <input placeholder="E-mail*" type="text">
+                    <input placeholder="E-mail" type="text">
                 </div>
 
                 <textarea placeholder="Комментарий" name="" id="" cols="30" rows="10"></textarea>
@@ -52,6 +52,11 @@
                 <div class="input">
                     <div class="image"><img src="/public/image/icons/popup/popup_phone.png" alt=""></div>
                     <input placeholder="Телефон*" type="text">
+                </div>
+
+                <div class="input">
+                    <div class="image"><img src="/public/image/icons/popup/popup_comment.png" alt=""></div>
+                    <input placeholder="Email" type="text">
                 </div>
 
             </div>

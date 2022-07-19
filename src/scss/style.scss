@@ -215,6 +215,16 @@ header {
   z-index: 13;
   transition: 0.5s all ease;
 
+  &.active {
+    background: rgba(0, 0, 0, 0.61);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(4px);
+    transition: 0.5s all ease;
+  }
+
   &[header_active] {
     position: fixed;
     top: 0;
@@ -229,7 +239,7 @@ header {
     align-items: center;
 
     .wrapper-logo {
-      width: 150px;
+      width: 180px;
       display: block;
 
       img {
@@ -276,11 +286,37 @@ header {
       a {
         color: white;
         @include font_standard;
-      }
 
-      img {
-        width: 30px;
-        margin-right: 20px;
+        display: flex;
+        align-items: center;
+
+        img:nth-child(2) {
+          display: none;
+        }
+
+        &:hover div {
+          color: $color_gold;
+        }
+
+        &:hover {
+          img {
+            &:nth-child(1) {
+              display: none;
+            }
+            &:nth-child(2) {
+              display: block;
+            }
+          }
+        }
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+
+        div {
+          margin-left: 15px;
+        }
       }
     }
 
@@ -1068,6 +1104,12 @@ footer {
           height: 50px;
           min-width: 50px;
           min-height: 50px;
+          transition: 0.5s all ease;
+
+          &:hover {
+            transition: 0.5s all ease;
+            transform: scale(1.1);
+          }
 
           &:first-child {
             background: url("/public/image/icons/footer/icon_insta.png") no-repeat center / cover;
@@ -1097,6 +1139,68 @@ footer {
           margin-top: 20px;
           @include font_standard;
         }
+      }
+    }
+  }
+}
+
+.privacy {
+  padding: 15px 0;
+
+  div {
+    @include font_average;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.55);
+
+    a {
+      text-decoration: underline;
+
+    }
+  }
+}
+
+.cookie {
+  background: rgba(0, 0, 0, 0.41);
+  position: fixed;
+  bottom: 0;
+  width: 98%;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9;
+  display: none;
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    justify-content: space-between;
+
+    .text {
+      @include font_standard;
+      width: 80%;
+      color: white;
+
+      a {
+        color: white;
+        text-decoration: underline;
+      }
+    }
+
+    button {
+      border: 1px solid white;
+      padding: 15px 0px;
+      width: 15%;
+      min-width: 150px;
+      color: white;
+      background: none;
+      @include font_average;
+      transition: 0.5s all ease;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.5s all ease;
+        box-shadow: 0 0 8px white;
       }
     }
   }

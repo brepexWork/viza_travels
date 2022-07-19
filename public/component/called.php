@@ -9,7 +9,7 @@
                 <div class="form-wrapper">
                     <input placeholder="Имя*" type="text">
                     <input phone placeholder="Телефон*" type="tel">
-                    <input placeholder="E-mail*" type="text">
+                    <input placeholder="E-mail" type="text">
 
                     <button>Отправить заявку</button>
                 </div>

@@ -11,7 +11,7 @@
                     </div>
 
                     <div class="body-button">
-                        <a href="#called"><span>оставить заявку</span> <span><img src="/public/image/icons/arrows/arrow_right_header.png" alt=""></span></a>
+                        <button button_full><span>оставить заявку</span> <span><img src="/public/image/icons/arrows/arrow_right_header.png" alt=""></span></button>
                         <div class="text">Более <span>93%</span> одобрения на получение визы</div>
                     </div>
 
@@ -92,7 +92,7 @@
                         возвращается снова и рекомендует друзьям и знакомым.
                     </div>
 
-                    <button button_full>написать директору</button>
+                    <a target="_blank" href="https://wa.clck.bar/79656492850"><button>написать директору</button></a>
                 </div>
             </div>
         </div>

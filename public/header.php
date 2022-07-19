@@ -81,9 +81,9 @@
 <header>
     <div class="content">
         <div class="header-wrapper">
-            <div class="wrapper-logo">
+            <a href="/public" class="wrapper-logo">
                 <img src="/public/image/logo_footer.png" alt="">
-            </div>
+            </a>
 
             <ul class="wrapper-menu">
                 <li><a href="/public">Главная</a></li>
@@ -94,9 +94,11 @@
             </ul>
 
             <div class="wrapper-phone">
-                <span>Whats App</span>
-                <img src="/public/image/icons/icon_phone.png" alt="">
-                <a href="https://wa.me/+40730362882">+40730362882</a>
+                <a target="_blank" href="https://wa.clck.bar/40730362882">
+                    <img src="/public/image/icons/whatsapp.png" alt="">
+                    <img src="/public/image/icons/whatsapp_hover.png" alt="">
+                    <div>whatsApp</div>
+                </a>
             </div>
 
             <div class="wrapper-burger" id="burger">
